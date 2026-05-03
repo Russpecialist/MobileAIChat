@@ -1,0 +1,38 @@
+# --- Flutter / Dart ---
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+build/
+
+# Generated on each platform
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+linux/flutter/ephemeral/
+macos/Flutter/ephemeral/
+windows/flutter/ephemeral/
+windows/flutter/generated_plugin_registrant.cc
+
+# IDE / OS noise
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local env / secrets
+.env
+*.keystore
+android/key.properties
+
+# Python local env (if exists locally)
+venv/
+__pycache__/
+
+# Local temporary folders
+temp_ios_fix/
